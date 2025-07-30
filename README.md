@@ -61,3 +61,20 @@ jobs:
           pr-message: "<h3>Hey! contributor, thank you for opening a Pull Request 🎉.</h3>"
           footer: "<h3>Thank you for contributing to the project 🚀</h3>"
 ```
+
+Delete branch on pr merge
+```
+name: delete branch on close pr
+on:
+  pull_request:
+    types: [closed]
+
+jobs:
+  delete-branch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Delete merged branch
+        uses: SvanBoxel/delete-merged-branch@1.4.3
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+```
