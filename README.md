@@ -1,5 +1,12 @@
 # Useful_Git_actions
 
+Dorny reporter
+```
+https://github.com/dorny/test-reporter
+```
+
+Semantic PR Check
+
 https://github.com/amannn/action-semantic-pull-request
 ```
 name: "Semantic PR Check"
