@@ -1,0 +1,30 @@
+# Global ownership (fallback)
+*                @mobile-test-leads
+
+# Ownership for iOS automation tests
+ios/            @ios-automation-team
+ios/**          @ios-automation-team
+
+# Ownership for Android automation tests
+android/        @android-automation-team
+android/**      @android-automation-team
+
+# Ownership for shared libraries and utilities
+lib/            @automation-framework-team
+lib/**          @automation-framework-team
+
+# Ownership for CI/CD pipeline scripts
+ci/             @devops-team
+ci/**           @devops-team
+
+# Ownership for test configuration files
+config/         @qa-team
+config/**       @qa-team
+
+# Ownership for documentation
+docs/           @qa-team
+docs/**         @qa-team
+
+# Ownership for critical files
+CODEOWNERS      @repo-admins
+README.md       @repo-admins
